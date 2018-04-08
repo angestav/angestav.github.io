@@ -126,13 +126,14 @@ a {
 .content {
   display: flex;
   align-items: top;
-  padding: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .image {
   width: 75%;
   margin: 0px;
-  padding: 15px 15px 0px 15px;
+  padding: 15px;
 }
 
 .text {
@@ -212,6 +213,27 @@ svg {
     margin-bottom: 20px;
     order: 0 !important;
   }
+
+  .small {
+    font-size: 14px;
+    color: #777777;
+    margin-top: 10px;
+    margin-left: 0px;
+    line-height: 1.6;
+  }
+
+  .headline-subpage {
+    font-size: 14px;
+    color: #333333;
+    font-weight: 400;
+    margin-left: 0px;
+    text-transform: uppercase;
+    }
+
+    svg {
+      padding-top: 15px;
+      padding-left: 0px;
+    }
 
 }
 
