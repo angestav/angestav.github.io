@@ -1,0 +1,255 @@
+body {
+  font-family: 'Heebo', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 120px;
+  font-weight: 100;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 200;
+  color: #777777;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+h3 {
+  font-size: 12px;
+  color: #333333;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+p {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.8;
+  color: #333333;
+  margin: 15px;
+}
+
+a {
+  color: #333333;
+  text-decoration: underline;
+
+}
+
+
+/*header och footer*/
+
+.about-link {
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.home {
+  font-size: 14px;
+  text-decoration: none;
+  color: #333333;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  font-weight: 400;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.footer {
+  color: #777777;
+  display: flex;
+  padding: 30px 30px 15px 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*startsida*/
+
+.hero {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.listing {
+  position: relative;
+  text-align: center;
+  margin: 15px 15px;
+}
+
+.project {
+  position: absolute;
+  bottom: 4px;
+  left: 16px;
+}
+
+
+/* About/kontaktsida*/
+
+.contact {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  margin-top: 6%;
+}
+
+.hello-icon {
+  font-size: 100px;
+  margin: 10px;
+}
+
+/*Undersidorna*/
+
+.content {
+  display: flex;
+  align-items: top;
+  padding: 15px;
+}
+
+.image {
+  width: 75%;
+  margin: 0px;
+  padding: 15px 15px 0px 15px;
+}
+
+.text {
+  width: 20%;
+  margin-top: 0px;
+}
+
+.small {
+  font-size: 14px;
+  color: #777777;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.headline-subpage {
+  font-size: 14px;
+  color: #333333;
+  font-weight: 400;
+  margin-left: 15px;
+  text-transform: uppercase;
+}
+
+.arrows {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+svg {
+  padding: 15px;
+}
+
+/*media queries*/
+
+@media only screen and (max-width: 1100px) {
+
+  p {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #333333;
+    margin: 15px;
+  }
+
+  .hello-icon {
+    font-size: 80px;
+    margin: 10px;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .image {
+    width: 100%;
+    padding: 15px;
+    order: 1 !important;
+  }
+
+  .text {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    order: 0 !important;
+  }
+
+}
+
+@media only screen and (max-width: 760px) {
+  h1 {
+    font-size: 80px;
+    font-weight: 100;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  h2 {
+    font-size: 18px;
+    font-weight: 200;
+    color: #777777;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+  }
+
+  p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #333333;
+    margin: 15px;
+  }
+
+  .hello-icon {
+    font-size: 60px;
+    margin: 10px;
+  }
+
+  .hero {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 80px;
+  }
+}
