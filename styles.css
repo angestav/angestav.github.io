@@ -199,6 +199,7 @@ svg {
     align-items: center;
     padding-right: 30px;
     padding-left: 30px;
+    padding-bottom: 0px;
   }
 
   .image {
